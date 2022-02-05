@@ -2,9 +2,9 @@
   "CONTRACT_ADDRESS": "0x0Cc54Ad3DE46f100884199933d62C4284483D15F",
   "SCAN_LINK": "https://polygonscan.com/token/0x0b18b900F7375AABDa00EEaC988116C33fb05BD2",
   "NETWORK": {
-    "NAME": "Polygon",
-    "SYMBOL": "Matic",
-    "ID": 80001
+    "NAME": "Ethereum",
+    "SYMBOL": "ETH",
+    "ID": 3
   },
   "NFT_NAME": "The Stripes NFT",
   "SYMBOL": "NINONFT",
