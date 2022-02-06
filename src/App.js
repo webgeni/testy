@@ -243,7 +243,7 @@ function App() {
                 textAlign: "center",
                 fontSize: 50,
                 fontWeight: "bold",
-                font-family: "lato", sans-serif,
+                fontfamily: "lato", sans-serif,
                 color: "var(--accent-text)",
               }}
             >
