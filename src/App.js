@@ -33,6 +33,9 @@ background: linear-gradient(-45deg, #3f00b5, #9f69fe, #27c8b7, #3f00b5);
  transition: all .5s ease-in-out;
    animation: gradient 3s infinite;
  transform: scale(1.05);
+  :hover {
+    animation: gradient 3s infinite;
+ transform: scale(1.05);
   }
 `;
 
