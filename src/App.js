@@ -493,7 +493,7 @@ html
                           getData();
                         }}
                       >
-                        {claimingNft ? "BUSY" : "BUY"}
+                        {claimingNft ? "MINTING.." : "MINT NOW"}
                       </StyledButton>
                     </s.Container>
                   </>
