@@ -106,7 +106,7 @@ export const StyledImg = styled.img`
 `;
 
 export const StyledLink = styled.a`
-  color: var(--secondary);
+  color: #a79fb3;
   text-decoration: none;
 `;
 
