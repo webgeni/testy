@@ -8,7 +8,7 @@ import styled from "styled-components";
 const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
 
-export const StyledButton = styled.button`
+export const StyledButton = styled.button1`
  background: linear-gradient(-45deg, #3f00b5, #9f69fe, #27c8b7, #3f00b5);
  background-size: 800% 400%;
  padding: 1em 2em;
@@ -234,7 +234,7 @@ function App() {
             ai={"center"}
             style={{
               backgroundColor: "rgb(40 40 40)",
-              padding: 20,
+              padding: 5,
               borderRadius: 12,
               border: "1px solid rgb(62 64 74)",
               boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
