@@ -234,8 +234,8 @@ function App() {
             ai={"center"}
             style={{
               backgroundColor: "rgb(40 40 40)",
-              padding: 4,
-              borderRadius: 24,
+              padding: 20,
+              borderRadius: 12,
               border: "1px solid rgb(62 64 74)",
               boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
             }}
