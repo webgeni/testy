@@ -9,20 +9,18 @@ const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
 
 export const StyledButton = styled.button`
- display:inline-block;
- padding:0.46em 1.6em;
- border:0.1em solid #000000;
- margin:0 0.2em 0.2em 0;
- border-radius:0.12em;
- box-sizing: border-box;
- text-decoration:none;
- font-family:'Roboto',sans-serif;
- font-weight:300;
- color:#000000;
- text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
- background-color:#FFFFFF;
- text-align:center;
- transition: all 0.15s;
+display: flex;
+ align-items: center;
+ font-family: inherit;
+ font-weight: 500;
+ font-size: 17px;
+ padding: 0.8em 1.3em 0.8em 0.9em;
+ color: white;
+ background: #ad5389;
+ background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+ border: none;
+ letter-spacing: 0.05em;
+ border-radius: 16px;
   :active {
     box-shadow: none;
     
