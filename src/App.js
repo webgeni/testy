@@ -19,6 +19,7 @@ export const StyledButton = styled.button`
  border-radius: 10px;
  font-size: 17px;
  font-weight: 700;
+ font-family: inherit;
  color: white;
  transition: all .5s ease-in-out;
  animation: gradient 10s infinite cubic-bezier(.62, .28, .23, .99) both;
