@@ -108,6 +108,7 @@ export const StyledLink = styled.a`
   color: #a79fb3;
   text-decoration: none;
   font-size: 15px;
+  letter-spacing: 12px;
 `;
 
 function App() {
