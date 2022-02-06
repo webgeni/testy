@@ -233,10 +233,10 @@ function App() {
             jc={"center"}
             ai={"center"}
             style={{
-              backgroundColor: "#404040",
+              backgroundColor: "#rgb(25 33 46)",
               padding: 4,
               borderRadius: 24,
-              border: "1.9px solid #273e93",
+              border: "1px solid rgb(62 64 74)",
               boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
             }}
           >
