@@ -47,39 +47,24 @@ export const StyledButton = styled.button`
 `;
 
 export const StyledButtonConnect = styled.button`
- background: linear-gradient(-45deg, #3f00b5, #9f69fe, #27c8b7, #3f00b5);
- background-size: 800% 400%;
- padding: 1em 2em;
- display: inline-block;
+ padding-left: 33px;
+ padding-right: 33px;
+ padding-bottom: 16px;
+ padding-top: 16px;
+ border-radius: 9px;
+ background: #d5f365;
  border: none;
- border-radius: 10px;
- font-size: 17px;
- font-weight: 700;
- color: white;
- transition: all .5s ease-in-out;
- animation: gradient 10s infinite cubic-bezier(.62, .28, .23, .99) both;
+ font-family: inherit;
+ text-align: center;
+ cursor: pointer;
+ transition: 0.4s;
 :hover {
- animation: gradient 3s infinite;
- transform: scale(1.05);
-}
-
+ box-shadow: 7px 5px 56px -14px #C3D900;
+ }
 :active {
- animation: gradient 3s infinite;
- transform: scale(0.8);
+ transform: scale(0.97);
+ box-shadow: 7px 5px 56px -10px #C3D900;
 }
-
-@keyframes gradient {
- 0% {
-  background-position: 0% 50%;
- }
-
- 50% {
-  background-position: 100% 50%;
- }
-
- 100% {
-  background-position: 0% 50%;
-  }
 `;
 
 
