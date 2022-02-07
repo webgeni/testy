@@ -6,8 +6,8 @@
     "SYMBOL": "ETH",
     "ID": 4
   },
-  "NFT_NAME": "Nino NFT",
-  "SYMBOL": "NINONFT",
+  "NFT_NAME": "Nino Webgenix NFT",
+  "SYMBOL": "WEBNFT",
   "MAX_SUPPLY": 1000,
   "WEI_COST": 20000000000000,
   "DISPLAY_COST": 0.002,
