@@ -130,7 +130,7 @@ export const StyledImg = styled.img`
     width: 250px;
   }
   @media (min-width: 1000px) {
-    width: 300px;
+    width: 117px;
   }
   transition: width 0.5s;
 `;
