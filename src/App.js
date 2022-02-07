@@ -112,7 +112,7 @@ export const StyledLogo = styled.img`
   padding-top: 30px;
   padding-right: 5px;
   @media (min-width: 767px) {
-    width: 300px;
+    width: 406px;
     padding-top: 35px;
     padding-right: 35px;
   }
