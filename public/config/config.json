@@ -1,6 +1,6 @@
 {
   "CONTRACT_ADDRESS": "0x478682a7a5C75D1348918279F51E091ed3B3F839",
-  "SCAN_LINK": "https://ropsten.etherscan.io/address/0xcF28EEA4d54b5A81A59aA5822fd5AE9E7615FeA4",
+  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0x478682a7a5C75D1348918279F51E091ed3B3F839",
   "NETWORK": {
     "NAME": "Ethereum",
     "SYMBOL": "ETH",
@@ -12,7 +12,7 @@
   "WEI_COST": 20000000000000,
   "DISPLAY_COST": 0.002,
   "GAS_LIMIT": 285000,
-  "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://opensea.io/collection/the-stripes-nft",
+  "MARKETPLACE": "Opensea",
+  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/nino-nft",
   "SHOW_BACKGROUND": false
 }
