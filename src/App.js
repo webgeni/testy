@@ -110,7 +110,7 @@ export const ResponsiveWrapper = styled.div`
 
 export const StyledLogo = styled.img`
   width: 319px;
-  padding-top: 30px;
+  padding-top: 35px;
   padding-right: 5px;
   @media (min-width: 767px) {
     width: 406px;
