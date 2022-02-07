@@ -146,7 +146,7 @@ function App() {
   const blockchain = useSelector((state) => state.blockchain);
   const data = useSelector((state) => state.data);
   const [claimingNft, setClaimingNft] = useState(false);
-  const [feedback, setFeedback] = useState(`Click Purchase to mint your NFT.` {data.totalSupply} / {CONFIG.MAX_SUPPLY});
+  const [feedback, setFeedback] = useState(`Click Purchase to mint your NFT.` ({data.totalSupply} / {CONFIG.MAX_SUPPLY}));
   const [mintAmount, setMintAmount] = useState(1);
   const [CONFIG, SET_CONFIG] = useState({
     CONTRACT_ADDRESS: "",
@@ -186,7 +186,7 @@ function App() {
       })
       .once("error", (err) => {
         console.log(err);
-        setFeedback("Sorry, something went wrong please try again later.");
+        setFeedback("Sorry, minting failed please try again later.");
         setClaimingNft(false);
       })
       .then((receipt) => {
