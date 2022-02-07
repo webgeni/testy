@@ -146,7 +146,7 @@ function App() {
   const blockchain = useSelector((state) => state.blockchain);
   const data = useSelector((state) => state.data);
   const [claimingNft, setClaimingNft] = useState(false);
-  const [feedback, setFeedback] = useState(` {data.totalSupply} / {CONFIG.MAX_SUPPLY} Click buy to mint your NFT.`);
+  const [feedback, setFeedback] = useState(`Click Purchase to mint your NFT.` {data.totalSupply} / {CONFIG.MAX_SUPPLY});
   const [mintAmount, setMintAmount] = useState(1);
   const [CONFIG, SET_CONFIG] = useState({
     CONTRACT_ADDRESS: "",
@@ -192,7 +192,7 @@ function App() {
       .then((receipt) => {
         console.log(receipt);
         setFeedback(
-          `WOW, the ${CONFIG.NFT_NAME} is yours! go visit Opensea.io to view it.`
+          `Congrats, the ${CONFIG.NFT_NAME} is yours! Check your wallet and Opensea.io.`
         );
         setClaimingNft(false);
         dispatch(fetchData(blockchain.account));
