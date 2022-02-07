@@ -11,7 +11,7 @@ const truncate = (input, len) =>
 
 
 export const StyledButton = styled.button`
- background: linear-gradient(-45deg, #3f00b5, #9f69fe, #27c8b7, #3f00b5);
+ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,124,1) 31%, rgba(8,0,133,1) 49%, rgba(124,0,255,1) 91%);
  background-size: 800% 400%;
  padding: 1em 2em;
  display: inline-block;
