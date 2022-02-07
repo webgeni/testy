@@ -74,7 +74,7 @@ export const StyledRoundButton = styled.button`
   padding: 10px;
   border-radius: 100%;
   border: none;
-  background-color: var(--primary);
+  background-color: rgb(106 106 106);
   padding: 10px;
   font-weight: bold;
   font-size: 15px;
