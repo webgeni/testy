@@ -19,6 +19,7 @@ export const StyledButton = styled.button`
  border-radius: 10px;
  font-size: 17px;
  font-weight: 700;
+ cursor: pointer;
  font-family: inherit;
  color: white;
  transition: all .5s ease-in-out;
