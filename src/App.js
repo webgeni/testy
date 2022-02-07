@@ -98,7 +98,7 @@ export const StyledRoundButton = styled.button`
 export const ResponsiveWrapper = styled.div`
   display: flex;
   flex: 1;
-  flex-direction: column;
+  flex-direction: column-reverse;
   justify-content: stretched;
   align-items: stretched;
   width: 100%;
@@ -112,7 +112,7 @@ export const StyledLogo = styled.img`
   padding-top: 30px;
   @media (min-width: 767px) {
     width: 300px;
-    padding-top: 20px;
+    padding-top: 35px;
   }
   transition: width 0.5s;
   transition: height 0.5s;
