@@ -146,7 +146,7 @@ function App() {
   const blockchain = useSelector((state) => state.blockchain);
   const data = useSelector((state) => state.data);
   const [claimingNft, setClaimingNft] = useState(false);
-  const [feedback, setFeedback] = useState(`Click Purchase to mint your NFT.`data.totalSupply);
+  const [feedback, setFeedback] = useState(`Click Purchase to mint your NFT.`${CONFIG.MAX_SUPPLY});
   const [mintAmount, setMintAmount] = useState(1);
   const [CONFIG, SET_CONFIG] = useState({
     CONTRACT_ADDRESS: "",
@@ -435,7 +435,7 @@ function App() {
                           getData();
                         }}
                       >
-                        {claimingNft ? "MINTING.." : "MINT NOW"}
+                        {claimingNft ? "MINTING.." : "PURCHASE"}
                       </StyledButton>
                     </s.Container>
                   </>
