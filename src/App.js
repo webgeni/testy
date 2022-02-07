@@ -250,7 +250,7 @@ function App() {
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
-            <StyledImg alt={"example"} src={"/config/images/example.gif"} />
+            
           </s.Container>
           <s.SpacerLarge />
           <s.Container
@@ -273,7 +273,7 @@ function App() {
                 color: "var(--accent-text)",
               }}
             >
-              {data.totalSupply} / {CONFIG.MAX_SUPPLY}
+              
             </s.TextTitle>
             <s.TextDescription
               style={{
@@ -444,7 +444,7 @@ function App() {
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg
               alt={"example"}
-              src={"/config/images/example.gif"}
+              
               style={{ transform: "scaleX(-1)" }}
             />
           </s.Container>
