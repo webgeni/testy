@@ -297,7 +297,7 @@ function App() {
             >
               <StyledButton
                 onClick={(e) => {
-                  window.open("/config/roadmap.pdf", "_blank");
+                  window.open("/docs/roadmap.pdf", "_blank");
                 }}
                 style={{
                   margin: "5px",
