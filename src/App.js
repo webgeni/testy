@@ -57,7 +57,7 @@ export const StyledButtonConnect = styled.button`
  background: #d5f365;
  border: none;
  font-family: inherit;
- font-size: 12px;
+ font-size: 14px;
  text-align: center;
  cursor: pointer;
  transition: 0.4s;
